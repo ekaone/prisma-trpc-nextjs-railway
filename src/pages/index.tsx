@@ -31,7 +31,7 @@ export default function IndexPage() {
         Posts
         {postsQuery.status === 'loading' && '(loading)'}
       </h2>
-      {postsQuery.data?.map((item) => (
+      {postsQuery.data?.map((item: any) => (
         <article key={item.id}>
           <h3>{item.title}</h3>
           <Link href={`/post/${item.id}`}>
