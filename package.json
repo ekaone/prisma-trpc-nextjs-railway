@@ -34,7 +34,7 @@
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-query": "^3.6.0",
-    "start-server-and-test": "^1.12.0",
+    "start-server-and-test": "^2.0.0",
     "superjson": "^1.8.1",
     "zod": "^3.0.0"
   },
